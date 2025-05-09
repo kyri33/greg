@@ -36,7 +36,7 @@ except ImportError:
         raise ImportError("Please install either whisper or faster-whisper: pip install faster-whisper or pip install whisper")
 
 # Configuration
-WAKE_WORD = "rachel"
+WAKE_WORD = "greg"
 SAMPLE_RATE = 16000
 BUFFER_DURATION_SECONDS = 5  # How many seconds of audio/text to keep in buffer
 CHUNK_SIZE = 1024
